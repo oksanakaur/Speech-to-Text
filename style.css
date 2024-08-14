@@ -17,7 +17,7 @@ body {
     font-family: Roboto;
 }
 
-.container {
+.container{
     width: 400px;
     background: #fff;
     padding: 20px;
@@ -25,28 +25,28 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.container .header {
+.container .header{
     font-size: 22px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 14px;
 }
 
-.container .settings p {
+.container .settings p{
     font-size: 14px;
     font-weight: 500;
     color: #a5a5a5;
     margin-bottom: 12px;
 }
 
-.container .settings select {
+.container .settings select{
     width: 100%;
     padding: 6px 10px;
     border: 1px solid #a5a5a5;
     border-radius: 5px;
 }
 
-.container .separator {
+.container .separator{
     width: 100%;
     height: 1px;
     background: #a5a5a5;
@@ -54,7 +54,7 @@ body {
     margin: 20px 0;
 }
 
-.btn {
+.btn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,28 +70,28 @@ body {
     background: #303f9f;
 }
 
-.btn i {
+.btn i{
     font-size: 24px;
 }
 
-.btn:diabled {
+.btn:disabled{
     background: #a5a5a5;
     cursor: not-allowed;
 }
 
-.container .record .bx-spin {
+.container .record .bx-spin{
     display: none;
 }
 
-.container .record.recording .bx-spin {
+.container .record.recording .bx-spin{
     display: block;
 }
 
-.container .record.recording i {
+.container .record.recording i{
     display: none;
 }
 
-.container .result {
+.container .result{
     width: 100%;
     border: 1px solid #a5a5a5;
     height: 120px;
@@ -104,18 +104,17 @@ body {
     font-weight: 500;
 }
 
-.container .result p {
+.container .result p{
     display: inline;
     margin-left: 3px;
     color: #a5a5a5;
 }
 
-.buttons {
+.buttons{
     display: flex;
     gap: 20px;
 }
 
-.buttons .btn {
+.buttons .btn{
     margin-bottom: 10px;
 }
-
